@@ -37,7 +37,7 @@ nav a {
 }
 
 img {
-    margin: 4px;
+    margin: 4px 16px;
 }
 
 .main-flow {
@@ -45,3 +45,7 @@ img {
     margin: 0px auto;
 }
 
+
+article h1 {
+    color: #7C93B2;
+}
