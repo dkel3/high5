@@ -8,7 +8,7 @@
 }
 
 .nav-item {
-    display: inline-block;
+    display: block;
 }
 
 .nav-item:hover {
@@ -30,11 +30,6 @@ article {
     margin: 0 auto;
 }
 
-.main-flow {
-    max-width: 1024px;
-    margin: 0px auto;
-}
-
 nav a {
     padding: 8px 16px 8px 16px;
     color: #fff;
@@ -45,4 +40,8 @@ img {
     margin: 4px;
 }
 
+.main-flow {
+    max-width: 1024px;
+    margin: 0px auto;
+}
 
