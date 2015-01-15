@@ -12,3 +12,7 @@
 .award h3 {
     text-align: left;
 }
+
+.mobile-header {
+    display: none;
+}
