@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .nav {
     width: 100%;
     background-color: #3B8FFF;
@@ -12,7 +16,7 @@
 }
 
 .nav-item:hover {
-    background-color: #A8CC1B ;
+    background-color: #7C93B2;
 }
 
 .nav ul {
@@ -45,7 +49,64 @@ img {
     margin: 0px auto;
 }
 
-
 article h1 {
     color: #7C93B2;
+}
+
+.article {
+    width: 100%;
+    display: inline-block;
+}
+
+.column {
+    width: 100%;
+    max-width: 50%;
+    float: left;
+    padding: 8px;
+}
+
+.center {
+    margin: 0px auto;
+}
+
+.article-image {
+    float: left;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.award {
+    height: 153px;
+}
+
+.give-award-btn {
+    position:relative;
+    margin: 0px auto;
+    background-color: #3B8FFF;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 1px #7C93B2;
+    width: 60%;
+    color: white;
+}
+
+.give-award-btn:hover {
+    background-color: #A8CC1B;
+    box-shadow: 0px 3px 1px #95B221;
+}
+
+.give-award-btn:active {
+    background-color: #A8CC1B;
+    box-shadow: none;
+    outline: none;
+    top: 3px;
+}
+
+.give-award-btn:focus {
+    outline: none;
 }
