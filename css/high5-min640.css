@@ -3,3 +3,8 @@
 .nav-item, .nav-item-right {
     display: inline-block;
 }
+
+.article-image {
+    float: left;
+    margin: 0px 16px 16px 16px;
+}
