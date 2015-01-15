@@ -11,8 +11,12 @@
     margin-bottom: 4px;
 }
 
-.nav-item {
+.nav-item, .nav-item-right {
     display: block;
+}
+
+.nav-item-right {
+    margin-left: auto;   
 }
 
 .nav-item:hover {
@@ -60,12 +64,13 @@ article h1 {
 
 .column {
     width: 100%;
-    max-width: 50%;
+    max-width: 512px;
     float: left;
     padding: 8px;
 }
 
 .center {
+    display: block;
     margin: 0px auto;
 }
 
@@ -80,7 +85,8 @@ article h1 {
 }
 
 .award {
-    height: 153px;
+    margin-bottom: 48px;
+    min-height: 153px;
 }
 
 .give-award-btn {
@@ -109,4 +115,8 @@ article h1 {
 
 .give-award-btn:focus {
     outline: none;
+}
+
+.award h3 {
+    color: #7C93B2;
 }

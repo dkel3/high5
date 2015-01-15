@@ -1,5 +1,5 @@
 /* high5-min640.css */
 
-.nav-item {
+.nav-item, .nav-item-right {
     display: inline-block;
 }
