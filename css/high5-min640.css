@@ -16,3 +16,8 @@
 .mobile-header {
     display: none;
 }
+
+
+.nav {
+    display: block;
+}
