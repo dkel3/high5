@@ -22,3 +22,9 @@
     display: block;
     height: auto;
 }
+
+.hidden .nav-item {
+    /* Disable on desktop */
+    height: auto;
+    opacity: 1;
+}

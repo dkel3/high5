@@ -17,11 +17,6 @@
     /*transition: height 3s;*/
 }
 
-.hidden {
-/*    height: 0px;*/
-    /*transition: height 3s;*/
-}
-
 .hidden .nav-item {
     height: 0px;
     opacity: 0;
