@@ -12,11 +12,27 @@
     padding: 0px;
     box-shadow: 0px 1px 1px #7C93B2;
     margin-bottom: 4px;
-    display: none;
+    height: auto;
+    overflow: hidden;
+    /*transition: height 3s;*/
+}
+
+.hidden {
+/*    height: 0px;*/
+    /*transition: height 3s;*/
+}
+
+.hidden .nav-item {
+    height: 0px;
+    opacity: 0;
 }
 
 .nav-item, .nav-item-right {
     display: block;
+    height: 38px;
+    opacity: 1;
+    transition-property: height, opacity;
+    transition-duration: 0.5s;
 }
 
 .nav-item-right {
