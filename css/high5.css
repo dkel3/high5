@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-.header {
+.d-header {
     background-color: #3B8FFF;
 }
 
-.nav {
+.d-nav {
     width: 100%;
     color: #fff;
     padding: 0px;
@@ -17,28 +17,29 @@
     /*transition: height 3s;*/
 }
 
-.hidden .nav-item {
+.d-hidden .d-nav-item {
     height: 0px;
     opacity: 0;
 }
 
-.nav-item, .nav-item-right {
+.d-nav-item, .d-nav-item-right {
     display: block;
+    font-family: "Noto Sans", sans-serif;
     height: 38px;
     opacity: 1;
     transition-property: height, opacity;
     transition-duration: 0.5s;
 }
 
-.nav-item-right {
+.d-nav-item-right {
     margin-left: auto;   
 }
 
-.nav-item:hover {
+.d-nav-item:hover {
     background-color: #7C93B2;
 }
 
-.nav ul {
+.d-nav ul {
     margin: 0;
     padding: 0;
 }
@@ -54,17 +55,25 @@ article {
     margin: 0 auto;
 }
 
-nav a {
+.d-nav-item a {
     padding: 8px 16px 8px 16px;
     color: #fff;
     display: block;
+    text-decoration: none;
+}
+
+.d-nav-item a:hover {
+    padding: 8px 16px 8px 16px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
 }
 
 img {
     margin: 4px 16px;
 }
 
-.main-flow {
+.d-main-flow {
     max-width: 1024px;
     margin: 0px auto;
 }
@@ -73,41 +82,41 @@ article h1 {
     color: #7C93B2;
 }
 
-.article {
+.d-article {
     width: 100%;
     display: inline-block;
+    margin: 0px auto;
 }
 
-.column {
+.d-column {
     width: 100%;
     max-width: 512px;
     float: left;
     padding: 8px 16px;
 }
 
-.center {
-    display: block;
-    margin: 0px auto;
-    max-width: 100%;
-}
-
-.article-image {
+.d-center {
     display: block;
     margin: 0px auto;
 }
 
-.clear:after {
+.d-article-image {
+    display: block;
+    margin: 0px auto;
+}
+
+.d-clear:after {
     content: "";
     clear: both;
     display: block;
 }
 
-.award {
+.d-award {
     margin-bottom: 48px;
     min-height: 153px;
 }
 
-.give-award-btn {
+.d-give-award-btn {
     position:relative;
     margin: 0px auto;
     background-color: #3B8FFF;
@@ -119,28 +128,38 @@ article h1 {
     color: white;
 }
 
-.give-award-btn:hover {
+.d-give-award-btn:hover {
     background-color: #A8CC1B;
     box-shadow: 0px 3px 1px #95B221;
 }
 
-.give-award-btn:active {
+.d-give-award-btn:active {
     background-color: #A8CC1B;
     box-shadow: none;
     outline: none;
     top: 3px;
 }
 
-.give-award-btn:focus {
+.d-give-award-btn:focus {
     outline: none;
 }
 
-.award h3 {
+.d-give-award-btn h3 {
+    margin: 8px;
+}
+
+.d-award h3 {
     text-align: center;
     color: #7C93B2;
 }
 
-.mobile-header {
+.d-mobile-header {
     color: white;
     padding: 8px 16px;
+}
+
+.d-btn-list {
+    padding: 0;
+    text-align: center;
+    width: 100%;
 }

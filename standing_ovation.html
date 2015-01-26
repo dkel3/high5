@@ -1,7 +1,69 @@
 <!DOCTYPE html>
-<html><head>
-
+<html>
+<head>
+    <title>Standing Ovation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/high5.css"/>
+    <link rel="stylesheet" media="(min-width: 640px)" href="css/high5-min640.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/high5.js"></script>
+    <script src="js/standing_ovation.js"></script>
 </head>
 <body>
-    <h1>Standing Ovation</h1>
-</body></html
+    <header>
+        <div class="d-header d-main-flow">
+            <div class="d-mobile-header"><span class="d-menu-button fa fa-bars fa-2x"></span></div>
+            <nav class="d-nav d-hidden">
+                <ul>
+                    <li class="d-nav-item"><a href="index.html">high5</a></li>
+                    <li class="d-nav-item"><a href="standing_ovation.html">Standing Ovation</a></li>
+                    <li class="d-nav-item"><a href="applause.html">Applause</a></li>
+                    <li class="d-nav-item"><a href="gimme5.html">Gimme 5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <div class="d-column">
+            <div class="article">
+                <img class="d-center" src="img/high5_banner.jpg" alt="High5"/></div>
+            <div class="article">
+                <h1>Standing Ovation Award</h1>
+                <p>Use this award to recognize individuals for exceptional actions that have made an impact in moving or sustaining the Pillars of Performance at the team, department, organization, or enterprise level. Standing Ovation Awards involve a nomination process and require officer approval. Standing Ovation Awards are Allstate Technology & Operations (ATOs) top honor.
+				<br>
+				These are the levels and values associated with the Standing Ovation award (Please note values differ between Business Areas *).
+				</p>
+
+                <p>Level 1 - Exceptional performance that impacts a team or department project/goal. - 100 points; Points count toward eligibility for year-end rewards. They cannot be used to redeem items out of the catalog.</p>
+				<p>Level 2 - Exceptional performance that impacts an ATO or enterprise-wide project/goal.- 200 points; Points count toward eligibility for year-end rewards. They cannot be used to redeem items out of the catalog.</p>
+            </div>
+        </div>
+        <div class="d-column">
+            <div class="d-award">
+                <img class="d-article-image clear" src="img/standing_ovation.gif"/>
+                <h3>Standing Ovation</h3>
+                <p><b>To nominate an employee for a Standing Ovation Award: </b>
+					Select the employee by entering their name or NTID, a Level and one or more Reasons ('Ctrl' key + select for multiples):
+					(if name does not appear, refer to First and Last Name areas in the Outlook Address Book)</p>
+            </div>
+            <form>
+                <div class="form-group"> 
+                    <label for="usr">Name</label>
+                    <input type="text" class="form-control" name="user" required placeholder="Enter name" id="usr"/>
+                </div>
+                <div class="form-group" class="col-sm-3"> 
+                    <label>Level</label>
+                    <input type="text" class="form-control" name="level" required placeholder="1 or 2" pattern="[1,2]" id="level"/>
+                </div>
+                <div>
+                    <button class="d-give-award-btn"><h3>High 5!</h3></button>
+                </div>
+            </form>
+        </div>
+    </article>
+</body>
+</html>

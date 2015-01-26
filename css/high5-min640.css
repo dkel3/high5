@@ -1,29 +1,29 @@
 /* high5-min640.css */
 
-.nav-item, .nav-item-right {
+.d-nav-item, .d-nav-item-right {
     display: inline-block;
 }
 
-.article-image {
+.d-article-image {
     float: left;
     margin: 0px 16px 16px 16px;
 }
 
-.award h3 {
+.d-award h3 {
     text-align: left;
 }
 
-.mobile-header {
+.d-mobile-header {
     display: none;
 }
 
 
-.nav {
+.d-nav {
     display: block;
     height: auto;
 }
 
-.hidden .nav-item {
+.d-hidden .d-nav-item {
     /* Disable on desktop */
     height: auto;
     opacity: 1;
